@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>STI College Munoz-EDSA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-main-gate">
+        <li class="text">Main Gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-congressional-gate">
+        <li class="text">Congressional Gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-intersection">
+        <li class="text">Intersection</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-covered-court-motor-parking">
+        <li class="text">Covered Court (Motor Parking)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-covered-court-">
+        <li class="text">Covered Court </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-covered-court">
+        <li class="text">Covered Court</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-covered-court">
+        <li class="text">Covered Court</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-covered-court-restroom">
+        <li class="text">Covered Court Restroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-room-103-and-104-bs-hallway">
+        <li class="text">Room 103 and 104 B&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-room-105-106-107-and-clinics-hallway">
+        <li class="text">Room 105, 106, 107, and Clinic&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-room-105-106-107-and-clinics-hallway">
+        <li class="text">Room 105, 106, 107, and Clinic&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-office-of-the-student-affairs-and-room-204-206-bs-hallway-charging-station">
+        <li class="text">Office of the Student Affairs and Room 204-206 B&#39;s Hallway (Charging Station)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-office-of-the-student-affairs-and-room-204-206-bs-hallway">
+        <li class="text">Office of the Student Affairs and Room 204-206 B&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-office-of-the-student-affairs-and-room-204-206-bs-restroom">
+        <li class="text">Office of the Student Affairs and Room 204-206 B&#39;s Restroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-nstp-office-and-guidance-and-counseling-room-fire-exit">
+        <li class="text">NSTP Office and Guidance and Counseling Room (Fire Exit)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-drawing-laboratory-garden">
+        <li class="text">Drawing Laboratory (Garden)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-room-101-b-and-drawing-laboratorys-hallway">
+        <li class="text">Room 101-B and Drawing Laboratory&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-cafeterias-intersection">
+        <li class="text">Cafeteria&#39;s Intersection</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-cafeterias-standing-tables">
+        <li class="text">Cafeterias Standing Tables</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-chroma-room-and-cafeterias-restroom">
+        <li class="text">Chroma Room and Cafeterias Restroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-hugot-canteen">
+        <li class="text">Hugot Canteen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-hugot-canteens-tables">
+        <li class="text">Hugot Canteen&#39;s Tables</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-cafeterias-dining-tables">
+        <li class="text">Cafeteria&#39;s Dining Tables</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-room-201-203-bs-hallway">
+        <li class="text">Room 201-203 B&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-room-201-203-bs-hallway">
+        <li class="text">Room 201-203 B&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-room-201-203-bs-hallway">
+        <li class="text">Room 201-203 B&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-room-201-203-bs-restroom">
+        <li class="text">Room 201-203 B&#39;s Restroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-3rd-floor-annex-b">
+        <li class="text">3rd Floor Annex-B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-avr-1-3s-hallway">
+        <li class="text">Avr 1-3&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-avr-1-3s-hallway">
+        <li class="text">Avr 1-3&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-avr-1-3s-hallway">
+        <li class="text">Avr 1-3&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-avr-1-3s-restroom-fire-exit">
+        <li class="text">Avr 1-3&#39;s Restroom (Fire Exit)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-annex-a-building">
+        <li class="text">Annex-A Building</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-waiting-shedarea">
+        <li class="text">Waiting Shed/Area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-waiting-shedarea">
+        <li class="text">Waiting Shed/Area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-main-building">
+        <li class="text">Main Building</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-edsa-gate-tunnel">
+        <li class="text">EDSA Gate Tunnel</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-edsa-gate">
+        <li class="text">EDSA Gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-hotel-and-engineering-laboratories-hallway">
+        <li class="text">Hotel and Engineering Laboratories&#39; Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-hotel-and-engineering-laboratories-hallway">
+        <li class="text">Hotel and Engineering Laboratories&#39; Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-hotel-and-engineering-laboratories-restroom-fire-exit">
+        <li class="text">Hotel and Engineering Laboratories&#39; Restroom (Fire Exit)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-science-laboratory-faculty-and-defense-rooms-hallway">
+        <li class="text">Science Laboratory, Faculty, and Defense Room&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-science-laboratory-faculty-and-defense-rooms-hallway">
+        <li class="text">Science Laboratory, Faculty, and Defense Room&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-science-laboratory-faculty-and-defense-rooms-restroom-fire-exit">
+        <li class="text">Science Laboratory, Faculty, and Defense Room&#39;s Restroom (Fire Exit)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-kitchen-laboratorys-hallway">
+        <li class="text">Kitchen Laboratory&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-kitchen-and-dining-laboratories-hallway">
+        <li class="text">Kitchen and Dining Laboratories&#39; Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-kitchen-and-dining-laboratories-hallway">
+        <li class="text">Kitchen and Dining Laboratories&#39; Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-kitchen-and-dining-laboratories-fire-exit-restroom">
+        <li class="text">Kitchen and Dining Laboratories&#39; Fire Exit (Restroom)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-kitchen-and-dining-laboratories-restroom">
+        <li class="text">Kitchen and Dining Laboratories&#39; Restroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-main-building">
+        <li class="text">Main Building</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-main-building-2nd-floor">
+        <li class="text">Main Building 2nd Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-computer-laboratory-4">
+        <li class="text">Computer Laboratory 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-computer-laboratory-4-and-cashiers-hallway">
+        <li class="text">Computer Laboratory 4 and Cashier&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-cashier">
+        <li class="text">Cashier</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-computer-laboratory-4s-hallway">
+        <li class="text">Computer Laboratory 4&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-registrar-and-prowares">
+        <li class="text">Registrar and Prowares</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-main-building-2nd-floors-restroom">
+        <li class="text">Main Building 2nd Floor&#39;s Restroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-admissions-office">
+        <li class="text">Admissions Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-admissions-office">
+        <li class="text">Admissions Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="68-studios-hallway">
+        <li class="text">Studio&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="69-computer-laboratory-1s-hallway">
+        <li class="text">Computer Laboratory 1&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="70-computer-laboratory-2s-hallway">
+        <li class="text">Computer Laboratory 2&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="71-computer-laboratory-3-and-management-information-systems-mis-offices-hallway">
+        <li class="text">Computer Laboratory 3 and Management Information Systems (MIS) Office&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="72-computer-laboratories-restroom">
+        <li class="text">Computer Laboratories&#39; Restroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="73-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="74-main-building-3rd-floor-charging-station-and-room-301-ms-hallway">
+        <li class="text">Main Building 3rd Floor (Charging Station and Room 301-M&#39;s Hallway)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="75-room-302-ms-hallway">
+        <li class="text">Room 302-M&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="76-main-building-3rd-floor-hallway">
+        <li class="text">Main Building 3rd Floor Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="77-main-building-3rd-floor-restroom-fire-exit">
+        <li class="text">Main Building 3rd Floor Restroom (Fire Exit)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="78-room-303-m-and-librarys-hallway">
+        <li class="text">Room 303-M and Library&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="79-room-304-ms-hallway">
+        <li class="text">Room 304-M&#39;s Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="80-main-building-3rd-floors-fire-exit">
+        <li class="text">Main Building 3rd Floor&#39;s Fire Exit</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="81-library">
+        <li class="text">Library</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="82-library">
+        <li class="text">Library</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="83-cozy-room">
+        <li class="text">Cozy Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="84-quiet-room--library">
+        <li class="text">Quiet Room / Library</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="85-gaming-room">
+        <li class="text">Gaming Room</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
