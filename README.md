@@ -42,25 +42,3 @@ Here’s a glimpse of what the virtual campus tour looks like:
 ![Campus Screenshot 2](/assets/showcase%202.png)  
 *View of the campus courtyard.*
 
----
-
-## 🚀 How to Use the Virtual Campus Tour
-
-1. **Open the Tour**:  
-   Launch the `index.html` file in your browser to start the tour. You will be presented with the main campus areas to explore.
-
-2. **Navigate Through the Campus**:  
-   Use your mouse or touch gestures to explore the 360° images. Click on interactive elements to learn more about specific areas or facilities.
-
-3. **Learn More**:  
-   As you navigate, you’ll see descriptive text providing more information about the areas you’re exploring.
-
----
-
-## 📥 Installation (For Local Viewing)
-
-To view this project locally, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/virtual-campus-tour-sti-college.git
